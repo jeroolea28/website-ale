@@ -1,11 +1,11 @@
 import { Container } from 'react-bootstrap';
+import Caroussel from './../../components/Caroussel/Caroussel.jsx';
 
 const HomePage = () => {
   return (
-    <Container className="py-4">
-      <h1>Hola soy Alejandro</h1>
-      <p>Bienvenido a mi sitio 👋</p>
-    </Container>
+    <>
+      <Caroussel />
+    </>
   );
 };
 
