@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  background-color: #18369bff;
+  color: white;
+  padding: 8px;          /* smaller height */
+  font-size: 0.9rem;     /* smaller text */
+}
+.footer p {
+  margin: 0;             /* remove default paragraph margin */
+}
