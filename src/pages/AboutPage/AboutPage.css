@@ -1,0 +1,18 @@
+.about-img {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  object-fit: cover;
+  width: 100%;
+  height: auto;          
+  max-height: 520px;
+  margin-top:1cm    
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about-container {
+  margin-top: 10rem;  
+}

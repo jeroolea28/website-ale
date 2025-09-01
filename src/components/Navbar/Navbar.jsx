@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink } from "react-router-dom";
-import './Navbar.css'; // import the custom CSS
+import './Navbar.css';
 
 function BasicExample() {
   return (

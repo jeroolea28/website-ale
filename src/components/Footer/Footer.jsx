@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./Footer.css";   // 👈 import the CSS file
 
 const Footer = () => {
   return (
-    <footer style={{ textAlign: 'center', backgroundColor: '#18369bff', color: 'white', padding: '8px', alignContent: 'center' }}>
-      <p style={{ fontSize: '1rem', margin: 0 }}>| Alejandro Olea | </p>
+    <footer className="footer">
+      <p>| Alejandro Olea |</p>
     </footer>
   );
-}
+};
 
 export default Footer;
