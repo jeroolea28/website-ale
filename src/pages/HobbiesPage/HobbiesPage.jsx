@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import hobbyImg from "./../../assets/Dudi.jpg";
+import hobbyImg2 from './../../assets/arquitectura.jpg'
 import "./HobbiesPage.css";
 
 const HobbiesPage = () => {
@@ -8,8 +9,8 @@ const HobbiesPage = () => {
       <h2 className="text-center mb-5">My Hobbies</h2>
 
       <Row className="align-items-center mb-5">
-        <Col md={6} className="order-md-2">
-          <img src={hobbyImg} alt="Guitar" className="img-fluid rounded shadow" />
+        <Col md={6} className="order-md-2 img-col-right">
+          <img src={hobbyImg2} alt="Guitar" className="img-fluid rounded shadow" />
         </Col>
         <Col md={6} className="order-md-1">
           <p>
@@ -22,8 +23,8 @@ const HobbiesPage = () => {
       <hr className="hobby-divider" />
 
       <Row className="align-items-center mb-5">
-        <Col md={6}>
-          <img src={hobbyImg} alt="Enduro Motorbiking" className="img-fluid rounded shadow" />
+        <Col md={6} className="img-col-left">
+          <img src={hobbyImg2} alt="Enduro Motorbiking" className="img-fluid rounded shadow" />
         </Col>
         <Col md={6}>
           <p>
@@ -36,8 +37,8 @@ const HobbiesPage = () => {
       <hr className="hobby-divider" />
 
       <Row className="align-items-center mb-5">
-        <Col md={6} className="order-md-2">
-          <img src={hobbyImg} alt="Songwriting" className="img-fluid rounded shadow" />
+        <Col md={6} className="order-md-2 img-col-right">
+          <img src={hobbyImg2} alt="Songwriting" className="img-fluid rounded shadow" />
         </Col>
         <Col md={6} className="order-md-1">
           <p>
@@ -50,8 +51,8 @@ const HobbiesPage = () => {
       <hr className="hobby-divider" />
 
       <Row className="align-items-center mb-5">
-        <Col md={6}>
-          <img src={hobbyImg} alt="Sports" className="img-fluid rounded shadow" />
+        <Col md={6} className="img-col-left">
+          <img src={hobbyImg2} alt="Sports" className="img-fluid rounded shadow" />
         </Col>
         <Col md={6}>
           <p>
